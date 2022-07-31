@@ -1,0 +1,1137 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans;
+
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.button_ {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.button-group {
+    margin-top: 41px;
+    display: flex;
+}
+
+.header {
+    background-color: #131313;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-content ul {
+    padding: 0 0 0 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    margin-top: 16px;
+}
+.header-navigatoion_item {
+
+    padding-left: 37px;
+    padding: 0 0 0 0;
+    font-size: 11px;
+    margin-right: 47px;
+
+}
+.header-navigatoion_item a {
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: white;
+}
+
+.header-navigatoion_item a:hover {
+    color: #E3B873;
+}
+
+.header-number {
+    margin-right: 12px;
+}
+
+.header-number a {
+    color: #E3B873;
+}
+
+.logo {
+    color: #E3B873;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+.hero {
+    background-image: url(/SkillFactory-git/img/image.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.hero-container {
+    margin-left: 134px;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 676px;
+    height: 105px;
+}
+
+.title-sp {
+    color: #E3B873;
+}
+
+.font1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 504px;
+    height: 89px;
+    
+}
+
+
+
+
+.line-control {
+    justify-content: center;
+    text-align: center;
+}
+
+.cntainer-completed {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Completed {
+    background: #131313;
+    height: 1071px;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.content {
+   margin-top: 176px;
+   display: block;
+   margin-right: 50px;
+   margin-left: 40px;
+}
+
+.navigation-copml {
+    display: block;
+    margin-top: 107px;
+}
+
+.img-nav-compl {
+    display: block;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.comp-ul {
+    margin: 0;
+    display: flex;
+    padding-left: 0;
+}
+.comp-li {
+    list-style: none;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    
+}
+
+.comp-li a {
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #FFFFFF4D;
+}
+
+.comp-li a:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.img-nav-compl {
+    width: 679px;
+    height: 482px;
+    margin-top: 15px;
+
+}
+
+
+.description-copml {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 107px 107px;
+    column-gap: 2rem;
+
+}
+
+.sapn-compl {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.text-compl {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+}
+
+h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    margin-top: 0;
+
+    color: #E3B873;
+}
+
+h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.vector {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 22px;
+    color: white;
+}
+
+
+
+
+
+.line-control_fix h3 {
+    color: white;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line-control_fix {
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -355px;
+    display: block;
+}
+
+.title-svg {
+    margin-bottom: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 93px;
+    margin-bottom: 35px;
+}
+
+.sig-in [for=info] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    display: flex;
+}
+
+#input {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    width: 231px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+
+.margin-sig-in {
+    margin-right: 49px;
+    margin-left: 58px;
+}
+
+.first-checkbox {
+    margin-top: 39px;
+}
+
+.group {
+    margin-top: 12px;
+    margin-bottom: 31px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.group__ {
+    margin-bottom: 40px;
+}
+
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+.V-control {
+    margin-top: 62px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    background-image: url(/SkillFactory-git/img/image\ 6.jpg);
+    height: 434px;
+    width: 817px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    margin-top: 31px;
+}
+
+.video-overly {
+    height: 434px;
+    width: 817px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.video-buttton {
+    background: #E3B873;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    width: 85px;
+    height: 85px;
+    font-size: 33px;
+    position: absolute;
+    z-index: 3;
+    left: 366px;
+    top: 174px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+
+
+.TYPES-OF-REPAIR {
+    text-align: center;
+    justify-content: center;
+}
+
+.TYPES-OF-REPAIR h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+
+}
+
+.h2-TYPES-OF-REPAIR {
+    margin-top: 147px;
+}
+
+.conent-TYPES-OF-REPAIT {
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.ul-types-of-repait li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #959595;
+}
+
+.ul-types-of-repait p {
+    margin-left: -12px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+}
+
+.cotolog {
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.cotolog img {
+    width: 392px;
+    height: 421px;
+    padding-right: 21px;
+}
+
+.margin-cotolog {
+    margin-left: 28px;
+}
+
+.container-ul-types-of-repait {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: -127px;
+}
+
+.descriptoin-type {
+    height: 286px;
+    width: 330px;
+    background-color: white;
+}
+
+.margin-des {
+    margin-left: 66px;
+    margin-right: 65px;
+}
+
+.m2-types-of-repait-one {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    padding: 17px 21px;
+    height: 54px;
+    width: 228px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    color: #FFFFFF;
+}
+
+.m2-types-of-repait-two {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    padding: 17px 18px;
+    height: 54px;
+    width: 228px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    color: #FFFFFF;
+}
+
+.m2-types-of-repait-three {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    padding: 17px 16px;
+    height: 54px;
+    width: 228px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    color: #FFFFFF;
+}
+
+.conten-TYPES-OF-REPAIR {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.conten-TYPES-OF-REPAIR-left {
+    background-image: url(/SkillFactory-git/img/image\ 6.1.jpg);
+    height: 645px;
+    width: 703px;
+    margin-top: 152px;
+}
+
+.conten-TYPES-OF-REPAIR-left p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: start;
+
+    color: #363636;
+}
+
+.number-1 {
+    display: flex;
+    margin-top: 86px;
+    margin-bottom: 0px;
+    padding-left: 122px;
+}
+
+.border-span {
+    display: inline-block;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background: #E3B873;
+    border-radius: 100%;
+    padding: 16px 17px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+.two {
+    padding: 16px 16px;
+}
+
+.three {
+    padding: 16px 16px
+}
+
+.four {
+    padding: 16px 15px; 
+}
+
+.white-border {
+    background: white;
+    border-radius: 100%;
+    width: 67px;
+    height: 66px;
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.conten-TYPES-OF-REPAIR-right {
+    margin-top: 258px;
+}
+
+.request {
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+    margin-top: -16px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pfive {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+    height: 47px;
+    width: 297px;
+    margin-bottom: 39px;
+}
+
+#phone {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #131313;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 408px;
+    margin-bottom: 48px;
+}
+label[for="phone"] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.soglasie_zwei {
+    display: flex;
+    margin-top: -50px;
+    margin-right: 168px;
+}
+.textinput {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+.button-left-content {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #E3B873;
+    width: 213px;
+    height: 51px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border: 1px;
+    margin-top: 35px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.svinushka {
+    display: flex;
+    margin-left: 60px;
+}
+
+.svinushka p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+
+
+
+
+
+.relize {
+    background-image: url(/SkillFactory-git/img/image\ 5.1.jpg);
+    background-size: cover;
+    height: 864px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin-top: 322px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.relize-overly {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.relize-container {
+    display: flex;
+    z-index: 1;
+    width: 1263px; 
+}
+
+
+.relize-left {
+    margin-top: 137px;
+    text-align: start;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.relize-left h2 {
+    margin-bottom: 47px;
+}
+
+.li-relize {
+    padding-bottom: 15px;
+    
+}
+
+.li-relize a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+}
+
+.li-relize a:hover {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.relize-right {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    right: 0;
+    top: -20px;
+    column-gap: 2rem;
+    margin-right: 102px;
+}
+
+img[src="img/image 5 (1).jpg"] {
+    width: 354px;
+    height: 557.88px;
+}
+img[src="img/image 5 (2).jpg"] {
+    /* position: absolute;
+    left: 587px;
+    top: 555px; */
+    width: 354px;
+    height: 349px;
+    margin-top:-140px;
+
+}
+img[src="img/image 5 (3).jpg"] {
+    width: 354px;
+    height: 275px;
+    margin-top: 100px;
+}
+img[src="img/image 5 (4).jpg"] {
+    width: 354px;
+    height: 624.88px;
+    margin-top: -315px;
+}
+
+
+
+
+.our-clients {
+    justify-content: center;
+    min-height: 1109px;
+    max-width: 1439px;
+
+
+}
+
+.container-our-clients {
+    justify-content: center;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.container-our-clients h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+
+.container-our-clients p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.container-coments {
+    justify-content: center;
+    display: flex;
+    margin-top: 39px;
+    margin: 0px 9px;
+}
+
+.cometns-one {
+    height: 428px;
+    width: 376px;
+    margin-right: 54px;
+}
+
+.cometns-two {
+    height: 428px;
+    width: 376px;
+    margin-right: 54px;
+}
+
+
+.name-coments {
+    display: flex
+}
+
+.text-coments {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    padding-left: 20px;
+
+    color: #959595;
+}
+
+.name-coments p {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #181818;
+}
+
+.name-coments img {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    
+}
+
+.img-coments {
+    margin-left: -15px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.acht {
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+}
+.question {
+    width: 883px;
+    height: 445px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pacht {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-bottom: 0px;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+}
+.for-label {
+    width: 231.01px;
+    height: 45px;
+    margin-top: 45px;
+    margin-bottom: 48px;
+    margin-right: 29px;
+    margin-left: 29px;
+}
+.for_label {
+    display: flex;
+    flex-direction: column;
+    width: 516.82px;
+    height: 45px;
+    margin-bottom: 46px;
+    text-align: start
+
+}
+label[for="question"] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#question {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #181818;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+label[for="question-big"] {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#question-big {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #181818;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 516px; 
+}
+.soglasie_neun {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.zweipacht {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.buttonneun {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #E3B873;
+    width: 200px;
+    height: 51px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border: 1px;
+    cursor: pointer;
+}
+
+
+
+.map-rostov {
+    background-image: url(/SkillFactory-git/img/image\ 7.2.jpg);
+    background-size: cover;
+    height: 953.8981323242188px;
+    max-width: 1440px;
+    position: relative;
+    z-index: -2;
+    margin-top: -223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -160px;
+}
+
+.map-overly {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(24, 24, 24, 0.9);
+    height: 953.9px;
+    z-index: -1;
+}
+
+.container-map-rostov {
+    justify-content: center;
+    text-align: center;
+}
+
+.container-regist {
+    text-align: -webkit-center;
+    margin-top: -755px;
+}
+
+.container-map-rostov h3 {
+    margin-top: 52px;
+}
+
+.container-map-rostov img {
+    margin-left: 15px;
+}
+
+.img-map {
+    text-align: center;
+    margin-top: 43px;
+}
+
+.fix-map {
+    margin-bottom: -453px;
+}
