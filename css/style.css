@@ -103,7 +103,7 @@ body * {
 
 
 .hero {
-    background-image: url(/SkillFactory-git/img/image.jpg);
+    background-image: url(../img/image.jpg);
     background-size: cover;
     height: 707px;
     padding-top: 194px;
@@ -402,7 +402,7 @@ h3 {
 }
 
 .video {
-    background-image: url(/SkillFactory-git/img/image\ 6.jpg);
+    background-image: url(../img/image\ 6.jpg);
     height: 434px;
     width: 817px;
     position: relative;
@@ -594,7 +594,7 @@ h3 {
 }
 
 .conten-TYPES-OF-REPAIR-left {
-    background-image: url(/SkillFactory-git/img/image\ 6.1.jpg);
+    background-image: url(../img/image\ 6.1.jpg);
     height: 645px;
     width: 703px;
     margin-top: 152px;
@@ -759,7 +759,7 @@ label[for="phone"] {
 
 
 .relize {
-    background-image: url(/SkillFactory-git/img/image\ 5.1.jpg);
+    background-image: url(../img/image\ 5.1.jpg);
     background-size: cover;
     height: 864px;
     position: relative;
@@ -957,16 +957,11 @@ img[src="img/image 5 (4).jpg"] {
 }
 
 
-
-
-
-
-
-
 .acht {
     display: flex;
     justify-content: center;
-    margin-top: 131px;
+    margin-top: -400px;
+
 }
 .question {
     width: 883px;
@@ -999,6 +994,7 @@ img[src="img/image 5 (4).jpg"] {
     margin-bottom: 48px;
     margin-right: 29px;
     margin-left: 29px;
+    display: inline-grid;
 }
 .for_label {
     display: flex;
@@ -1006,8 +1002,6 @@ img[src="img/image 5 (4).jpg"] {
     width: 516.82px;
     height: 45px;
     margin-bottom: 46px;
-    text-align: start
-
 }
 label[for="question"] {
     font-family: 'Nunito Sans';
@@ -1055,6 +1049,11 @@ label[for="question-big"] {
     align-items: center;
     margin-bottom: 50px;
 }
+
+.galochka {
+    cursor: pointer;
+}
+
 .zweipacht {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -1083,18 +1082,18 @@ label[for="question-big"] {
 
 
 
+
 .map-rostov {
-    background-image: url(/SkillFactory-git/img/image\ 7.2.jpg);
+    background-image: url(../img/image\ 7.2.jpg);
     background-size: cover;
     height: 953.8981323242188px;
     max-width: 1440px;
     position: relative;
     z-index: -2;
-    margin-top: -223px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -160px;
+    margin-top: -230px;
 }
 
 .map-overly {
@@ -1112,12 +1111,10 @@ label[for="question-big"] {
 .container-map-rostov {
     justify-content: center;
     text-align: center;
+    margin-top: -239px;
 }
 
-.container-regist {
-    text-align: -webkit-center;
-    margin-top: -755px;
-}
+
 
 .container-map-rostov h3 {
     margin-top: 52px;
