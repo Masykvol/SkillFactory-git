@@ -17,12 +17,18 @@ body * {
     outline: 0;
     border: 0;
     padding: 13px 33px;
-    color: white;
     text-transform: uppercase;
     width: 207px;
     height: 51px;
-    font-size: 11px;
     cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 .button_ {
     background-color: transparent;
@@ -31,14 +37,24 @@ body * {
     border-radius: 2px;
     margin-left: 20px;
     cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 .button-group {
     margin-top: 41px;
     display: flex;
+
 }
 
 .header {
     background-color: #131313;
+    width: 100%;
 }
 .header-content{
     display: flex;
@@ -1131,4 +1147,313 @@ label[for="question-big"] {
 
 .fix-map {
     margin-bottom: -453px;
+}
+
+
+.mobile-first-checkbox {
+    display: none;
+}
+
+
+
+@media (max-width: 768px)  {
+    .container {
+        max-width: 100%; 
+    }
+
+    .container nav {
+        display: none;
+    }
+
+    .container button {
+        display: none;
+    }
+
+    .header-number a {
+        text-decoration: none;
+        color: white;
+    }
+
+    
+
+    .hero {
+        min-height: 476px;
+        width: 100%;
+        padding-top: 85px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .napolnenie {
+        display: flex;
+        max-width: 339px;
+    }
+
+    .hero-container {
+        height: 60px;
+        width: 339px;
+        margin-left: 0;
+    }
+
+    .title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    height: 60px;
+    width: 339px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    }
+
+    .font1 {
+        margin-top: 60px;
+        height: 94px;
+        width: 339px;
+        line-height: 135.84%;
+
+    }
+
+    .button {
+        height: 51px;
+        width: 338.607421875px;
+        margin-bottom: 26px;
+    }
+
+    .button_ {
+        margin-left: 0;
+        height: 51px;
+        width: 338.607421875px;
+    }
+
+    .button-group {
+        display: block;
+        margin-top: 100px;
+    }
+
+
+
+    .navigation-copml {
+        display: none;
+    }
+
+    .content {
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .text-compl {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 158.48%;
+        /* or 17px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .first h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+
+        text-align: center;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+
+        color: #E3B873;
+    }
+
+    .description-copml {
+        text-align: left;
+    }
+
+    .mobile-img {
+        background-image: url(../img/image\ 2.jpg);
+        z-index: 12;
+        height: 241.3549346923828px;
+        width: 340px;
+        margin-left: 40px;
+
+
+    }
+
+    .vector {
+        display: none;
+    }
+
+
+    .video {
+        height: 207px;
+        width: 340px;
+    }
+
+    .video-overly {
+        height: 207px;
+        width: 340px;
+    }
+
+    .video-buttton {
+        height: 37px;
+        width: 37px;
+        font-size: 17px;
+        left: 150px;
+        top: 80px;
+    }
+
+    .titli-svg {
+        margin-top: -800px;
+    }
+
+    .V-control {
+        margin-top: 28px;
+    }
+
+    .line-control_fix p {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        /* or 19px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .form {
+        display: block;
+        margin-top: 51px;
+        margin-bottom: 0;
+    }
+
+    .sig-in [for=info] {
+        display: grid;
+        margin-right: 300px;
+    }
+
+    .margin-sig-in {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-from {
+        display: inline-grid;
+        max-height: 310px;
+    }
+
+    .sig-in {
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: #131313;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #FFFFFF;
+        width: 340px;
+        margin-bottom: 48px;
+    
+    }
+
+    #input {
+        background-color: #131313;
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        width: 231px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #363636;
+        margin-right: 105px;
+    }
+
+    .first-checkbox {
+        display: none;
+    }
+
+    .mobile-first-checkbox {
+        height: 16.23828125px;
+        width: 259px;
+        display: block;
+    }
+
+    .Completed {
+        height: 1489px;
+    }
+
+
+
+
+
+
+
+    .h2-TYPES-OF-REPAIR {
+        margin-top: 58px;
+    }
+
+    .cotolog {
+        display: inline-grid;
+        margin-bottom: -1255px;
+    }
+
+    .margin-cotolog {
+        margin: 0 0 0 0;
+    }
+
+    .container-ul-types-of-repait {
+        display: inline-block;
+    }
+
+    .cotolog img {
+        height: 365.1530456542969px;
+        width: 340px;
+        margin-bottom: 177px;
+        
+    }
+
+    .margin-des {
+        margin-left: 0;
+        margin-right: 65px;
+    }
+
+
+    .descriptoin-type {
+        margin-bottom: 302px;
+        margin-top: -91px;
+
+    }
+
+    .ul-types-of-repait p {
+        font-size: 15px;
+    }
+
+    .ul-types-of-repait li  {
+        font-size: 13px;
+    }
+
+    .conten-TYPES-OF-REPAIR {
+        display: none;
+    }
+
+    .relize {
+        display: none;
+    }
+
+    .our-clients {
+        display: none;
+    }
+
 }
