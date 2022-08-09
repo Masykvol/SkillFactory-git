@@ -1197,6 +1197,280 @@ label[for="question-big"] {
     display: none;
 }
 
+.fix-ipad {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+    .container ul {
+        display: none;
+    }
+
+    .fix-ipad {
+        display: flex;
+        margin-top: 125px;
+    }
+
+    .navigation-copml {
+        display: none;
+    }
+
+    .content {
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .text-compl {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 158.48%;
+        /* or 17px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .first h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+
+        text-align: center;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+
+        color: #E3B873;
+    }
+
+    .description-copml-ipad {
+        text-align: left;
+        margin-top: 42px;
+        display: flex;
+        grid-template-columns: 190px 190px;
+        grid-template-rows: 107px 107px;
+        column-gap: 2rem;
+        width: 321px;
+        margin-top: 0;
+    }
+
+    .description-copml {
+        display: none;
+    } 
+
+    .description-copml-ipad h3 {
+        font-size: 21px;
+    }
+
+    .text-compl {
+        font-size: 17px;
+    }
+
+    .mobile-img {
+        background-image: url(../img/image\ 2.jpg);
+        z-index: 12;
+        height: 241.3549346923828px;
+        width: 340px;
+        margin-right: 80px;
+
+    }
+    
+    .strelki {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 103px;
+    }
+
+    .left {
+        padding-left: 13px;
+    }
+
+    .right {
+        padding-right: 13px;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .cntainer-completed {
+        display: flex;
+    }
+
+    .line-control_fix {
+        margin-top: -400px;
+    }
+
+    .video {
+        background-image: url(../img/image\ 6.jpg);
+        height: 390px;
+        width: 740px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0;
+        display: block;
+        margin-top: 31px; 
+    }
+
+    .video-overly {
+        height: 390px;
+        width: 740px;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 0;
+    }
+
+    .video-buttton {
+        background: #E3B873;
+        border-radius: 50%;
+        border: 5px solid transparent;
+        width: 85px;
+        height: 85px;
+        font-size: 33px;
+        position: absolute;
+        z-index: 3;
+        left: 325px;
+        top: 157px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .conten-TYPES-OF-REPAIR-left {
+        background-image: url(../img/image\ 6.1.jpg);
+        height: 645px;
+        width: 703px;
+        margin-top: 152px;
+        display: none;
+    }
+
+
+    .TYPES-OF-REPAIR-MOBILE {
+        display: block;
+        text-align: center;
+    }
+
+
+
+    .TYPES-OF-REPAIR {
+        display: none;
+    }
+
+    .cotolog-mobile {
+        margin-top: 40px;
+    }
+
+    .dis-img {
+        height: 365.1530456542969px;
+        width: 340px;
+        margin: auto;
+        margin-bottom: 265px;
+    }
+
+    .dis-img ul {
+        background-color: white;
+        height: 241px;
+        width: 270px;
+        margin-top: -140px;
+        position: sticky;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 20px rgb(0 0 0 / 5%);
+        margin-bottom: -5px;
+    }
+
+    .m2-types-of-repait-one {
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgb(227 184 115 / 20%);
+        border-radius: 2px;
+        border: 0;
+        padding: 11px 19px;
+        text-transform: uppercase;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        height: 40px;
+        width: 190.42567443847656px;
+        border-radius: 0px;
+        position: sticky;
+        margin-top: -35px;
+        margin-right: 146px;
+    }
+
+    .TYPES-OF-REPAIR-MOBILE h2 {
+        margin-top: 66px;
+    }
+
+
+    .container-our-clients h3 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .our-clients {
+        padding-top: 7px;
+    }
+
+    .container-coments {
+        justify-content: center;
+        display: grid;
+        margin-top: 39px;
+        margin: 0px 9px;
+        margin-bottom: 502px;
+    }
+
+    .cometns-one {
+        margin-bottom: 100px;
+    }
+
+    .cometns-two {
+        margin-bottom: 100px;
+    }
+
+    .cometns-thre {
+        margin-bottom: 100px;
+    }
+
+    .name-coments p {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 23px;
+        color: #181818;
+    }
+
+    .text-coments {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 199%;
+        padding-left: 20px;
+        color: #959595;
+    }
+
+}
+
+
 
 @media (max-width: 768px)  {
 
@@ -1284,6 +1558,13 @@ label[for="question-big"] {
 
     .navigation-copml {
         display: none;
+    }
+
+    .fix-ipad {
+        display: inline-block;
+        margin-top: 125px;
+        margin: 0 auto;
+        width: 340px;
     }
 
     .content {
