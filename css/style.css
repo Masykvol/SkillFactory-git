@@ -1468,6 +1468,10 @@ label[for="question-big"] {
         color: #959595;
     }
 
+    .img-map img {
+        width: 650px;
+    }
+
 }
 
 
