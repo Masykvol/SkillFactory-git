@@ -1481,9 +1481,6 @@ label[for="question-big"] {
     }
 
 
-    .vector-b {
-
-    }
 
     .dis-img  {
         height: 365.1530456542969px;
@@ -1603,7 +1600,7 @@ label[for="question-big"] {
     }
 
     label[for="question"] {
-        display: inline-flex;
+        display: -webkit-box;
     }
 
 
@@ -1624,7 +1621,7 @@ label[for="question-big"] {
 
     label[for="question-big"] {
         margin-top: 30px;
-        display: inline-flex;
+        display: -webkit-box;
     }
 
     .soglasie_neun {
