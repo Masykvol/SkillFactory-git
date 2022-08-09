@@ -249,10 +249,11 @@ body * {
 
 .description-copml {
     margin-top: 42px;
-    display: grid;
+    display: flex;
     grid-template-columns: 190px 190px;
     grid-template-rows: 107px 107px;
     column-gap: 2rem;
+    width: 321px;
 
 }
 
@@ -1010,7 +1011,7 @@ img[src="img/image 5 (4).jpg"] {
     margin-bottom: 48px;
     margin-right: 29px;
     margin-left: 29px;
-    display: inline-grid;
+    display: inline-table;
 }
 .for_label {
     display: flex;
@@ -1018,6 +1019,7 @@ img[src="img/image 5 (4).jpg"] {
     width: 516.82px;
     height: 45px;
     margin-bottom: 46px;
+    display: inline-table;
 }
 label[for="question"] {
     font-family: 'Nunito Sans';
@@ -1025,6 +1027,7 @@ label[for="question"] {
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
+    display: inline-table;
     color: rgba(255, 255, 255, 0.5);
 }
 #question {
@@ -1068,6 +1071,25 @@ label[for="question-big"] {
 
 .galochka {
     cursor: pointer;
+}
+
+.buttonneun {
+    background: #E3B873;
+    height: 51px;
+    width: 200px;
+    border-radius: 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 54px;
+
+    color: #FFFFFF;
+
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
 }
 
 .zweipacht {
@@ -1149,14 +1171,40 @@ label[for="question-big"] {
     margin-bottom: -453px;
 }
 
+.footer {
+    background: #181818;
+}
+
 
 .mobile-first-checkbox {
     display: none;
 }
 
+.mobile-relize {
+    display: none;
+}
+
+.fix-momile {
+    display: none;
+}
+
+
+.TYPES-OF-REPAIR-MOBILE {
+    display: none;
+}
+
+.strelki {
+    display: none;
+}
 
 
 @media (max-width: 768px)  {
+
+    body {
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
     .container {
         max-width: 100%; 
     }
@@ -1281,9 +1329,21 @@ label[for="question-big"] {
         z-index: 12;
         height: 241.3549346923828px;
         width: 340px;
-        margin-left: 40px;
 
+    }
+    
+    .strelki {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 103px;
+    }
 
+    .left {
+        padding-left: 13px;
+    }
+
+    .right {
+        padding-right: 13px;
     }
 
     .vector {
@@ -1400,53 +1460,241 @@ label[for="question-big"] {
 
 
 
-    .h2-TYPES-OF-REPAIR {
-        margin-top: 58px;
+    .TYPES-OF-REPAIR {
+        display: none;
+
     }
 
-    .cotolog {
-        display: inline-grid;
-        margin-bottom: -1255px;
+    .TYPES-OF-REPAIR-MOBILE {
+        display: block;
+        text-align: center;
     }
 
-    .margin-cotolog {
-        margin: 0 0 0 0;
+    .TYPES-OF-REPAIR-MOBILE h2 {
+            color: #131313;
+            margin-top: 58px;
     }
 
-    .container-ul-types-of-repait {
-        display: inline-block;
+
+    .cotolog-mobile {
+        margin-top: 40px;
     }
 
-    .cotolog img {
+
+    .vector-b {
+
+    }
+
+    .dis-img  {
         height: 365.1530456542969px;
         width: 340px;
-        margin-bottom: 177px;
-        
+        margin: auto;
+        margin-bottom: 214px;
+    }
+    .dis-img img {
+        height: 365.1530456542969px;
+        width: 340px;
     }
 
-    .margin-des {
-        margin-left: 0;
-        margin-right: 65px;
-    }
-
-
-    .descriptoin-type {
-        margin-bottom: 302px;
-        margin-top: -91px;
-
+    .dis-img ul{
+        background-color: white;
+        height: 241px;
+        width: 270px;
+        margin-top: -140px;
+        position: sticky;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+        margin-bottom: -5px;
+    } 
+    
+    .m2-types-of-repait-one {
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgb(227 184 115 / 20%);
+        border-radius: 2px;
+        border: 0;
+        padding: 11px 19px;
+        text-transform: uppercase;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        height: 40px;
+        width: 190.42567443847656px;
+        border-radius: 0px;
+        position: sticky;
+        margin-top: -35px;
+        margin-right: 146px;
     }
 
     .ul-types-of-repait p {
-        font-size: 15px;
+        margin-left: -12px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #363636;
+        padding-top: 10px;
+        margin-bottom: 0;
     }
 
-    .ul-types-of-repait li  {
+    .ul-types-of-repait li {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
         font-size: 13px;
+        line-height: 27px;
+        color: #959595;
     }
 
-    .conten-TYPES-OF-REPAIR {
-        display: none;
+
+    .mobile-relize {
+        display: block;
+        text-align: -webkit-center;
     }
+
+    .mobile-relize h2 {
+        margin-bottom: -75px;
+    }
+
+    .relize-img {
+        height: 242px;
+        width: 340px;
+        z-index: 12;
+        padding-top: 90px;
+
+    }
+
+    .two-strelki {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -140px;
+    }
+
+
+    #question-big {
+        width: 340px;
+    }
+
+    .for-label{
+        max-width: 340px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .for-lable-one {
+        margin-bottom: 0;
+    }
+
+
+    .footer-mobile {
+        height: 1189px;
+        background-color: #131313;
+        margin-top: -30px;
+        padding-top: 170px;
+    }
+
+    .question {
+        height: 1px;
+        width: 340px;
+        display: block;
+    }
+
+    label[for="question"] {
+        display: inline-flex;
+    }
+
+
+    .mobile-relize h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #E3B873;
+
+    }
+
+    label[for="question-big"] {
+        margin-top: 30px;
+        display: inline-flex;
+    }
+
+    .soglasie_neun {
+        margin-top: 70px;
+    }
+
+    .buttonneun {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        height: 51px;
+        width: 340px;
+
+        color: #FFFFFF;
+    }
+
+    #question {
+        width: 340px;
+    }
+
+    .map-mobile {
+        margin-top: -370px;
+
+    }
+
+
+    .line {
+        display: grid;
+    }
+
+    .for_label {
+        width: 340px;
+    }
+
+    .contackt {
+        margin-top: 92px;
+        padding-top: 26px;
+        height: 100px;
+        background-color: #131313;
+    }
+
+    .contackt img {
+        height: 39px;
+        width: 39px;
+
+    }
+
+
+    .TYPES-OF-REPAIR {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+
+    .h2-relize {
+        margin-top: 0px;
+    }
+
+
+
+    .content {
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 
     .relize {
         display: none;
@@ -1455,5 +1703,27 @@ label[for="question-big"] {
     .our-clients {
         display: none;
     }
+
+    .acht {
+        display: none;
+    }
+
+    .map-rostov {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .soglasie_neun {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 23px;
+    }
+
+
 
 }
