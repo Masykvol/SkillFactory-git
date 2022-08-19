@@ -407,6 +407,7 @@ h3 {
 
 .label {
     cursor: pointer;
+    display: grid;
   }
   .checkbox{
     display: none;
@@ -738,6 +739,7 @@ label[for="phone"] {
     font-size: 13px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
+    margin-right: 370px;
 }
 .soglasie_zwei {
     display: flex;
@@ -745,23 +747,17 @@ label[for="phone"] {
     margin-right: 168px;
 }
 
-.fake-two {
-    display: inline-flex;
-    width: 18px;
-    height: 18px;
-    background: #E3B873;
-    color: #fff;
-    justify-content: center;
+.label-two {
+    cursor: pointer;
 }
 
-.galochka {
-    display: none;
+.two-checkbox {
+    margin-top: -20px;
+    margin-right: 120px;
 }
 
-.fake::before {
-    content: "\2714";
-    opacity: 0;
-    transition: .2s;
+.text {
+    color: white;
 }
 
 .textinput {
@@ -1048,8 +1044,19 @@ img[src="img/image 5 (4).jpg"] {
     margin-bottom: 48px;
     margin-right: 29px;
     margin-left: 29px;
-    display: inline-table;
+    display: grid;
 }
+
+.for_label-big {
+    width: 231.01px;
+    height: 45px;
+    margin-top: 45px;
+    margin-bottom: 48px;
+    margin-right: 29px;
+    margin-left: 29px;
+    display: grid;
+}
+
 .for_label {
     display: flex;
     flex-direction: column;
