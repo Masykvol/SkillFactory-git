@@ -112,8 +112,6 @@ body * {
 .container {
     max-width: 1256px;
     margin: 0 auto;
-    margin-left: 40px;
-    margin-right: 40px;
 
 }
 
@@ -136,9 +134,30 @@ body * {
     background-color: rgba(0, 0, 0, 0.7)
 }
 .hero-container {
-    margin-left: 134px;
+    margin-left: 315px;
     position: relative;
     z-index: 1;
+}
+
+@media (max-width: 1840px) {
+    .hero-container {
+        margin-left: 290px;
+    }
+    
+}
+
+@media (max-width: 1670px) {
+    .hero-container {
+        margin-left: 230px;
+    }
+    
+}
+
+@media (max-width: 1510px) {
+    .hero-container {
+        margin-left: 190px;
+    }
+    
 }
 
 .title {
@@ -465,7 +484,7 @@ h3 {
 
 .TYPES-OF-REPAIR {
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .TYPES-OF-REPAIR h2 {
@@ -606,7 +625,7 @@ h3 {
 
 .conten-TYPES-OF-REPAIR {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -725,6 +744,26 @@ label[for="phone"] {
     margin-top: -50px;
     margin-right: 168px;
 }
+
+.fake-two {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.galochka {
+    display: none;
+}
+
+.fake::before {
+    content: "\2714";
+    opacity: 0;
+    transition: .2s;
+}
+
 .textinput {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -782,7 +821,6 @@ label[for="phone"] {
     position: relative;
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
     box-sizing: border-box;
     margin-top: 322px;
     position: relative;
@@ -881,7 +919,6 @@ img[src="img/image 5 (4).jpg"] {
 .our-clients {
     justify-content: center;
     min-height: 1109px;
-    max-width: 1439px;
 
 
 }
@@ -1125,7 +1162,6 @@ label[for="question-big"] {
     background-image: url(../img/image\ 7.2.jpg);
     background-size: cover;
     height: 953.8981323242188px;
-    max-width: 1440px;
     position: relative;
     z-index: -2;
     display: flex;
