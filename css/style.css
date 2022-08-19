@@ -369,8 +369,8 @@ h3 {
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
     display: flex;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #input {
@@ -407,7 +407,6 @@ h3 {
 
 .label {
     cursor: pointer;
-    display: grid;
   }
   .checkbox{
     display: none;
@@ -753,10 +752,10 @@ label[for="phone"] {
 
 .two-checkbox {
     margin-top: -20px;
-    margin-right: 120px;
+    margin-right: 85px;
 }
 
-.text {
+.text-two {
     color: white;
 }
 
@@ -1047,14 +1046,14 @@ img[src="img/image 5 (4).jpg"] {
     display: grid;
 }
 
-.for_label-big {
+.for-label-big {
     width: 231.01px;
     height: 45px;
     margin-top: 45px;
     margin-bottom: 48px;
     margin-right: 29px;
     margin-left: 29px;
-    display: grid;
+    display: inline-table;
 }
 
 .for_label {
@@ -1113,8 +1112,12 @@ label[for="question-big"] {
     margin-bottom: 50px;
 }
 
-.galochka {
-    cursor: pointer;
+.soglasie-checkbox {
+    margin-bottom: 20px;
+}
+
+.text-sogl {
+    color: white;
 }
 
 .buttonneun {
@@ -1244,12 +1247,20 @@ label[for="question-big"] {
     display: none;
 }
 
+.relize-img {
+    display: none;
+}
+
 
 
 
 
 @media (max-width: 1300px) {
     .container ul {
+        display: none;
+    }
+
+    .relize-right {
         display: none;
     }
 
@@ -1280,6 +1291,23 @@ label[for="question-big"] {
         color: #FFFFFF;
     }
 
+    .relize-img {
+        display: block;
+    }
+
+    .relize-img-one img{
+        margin-top: 350px;
+    }
+
+    .relize-container {
+        justify-content: space-around;
+    }
+
+    .two-strelki {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -130px;
+    }
 
     .first h2 {
         font-family: 'Yeseva One';
@@ -1757,7 +1785,7 @@ label[for="question-big"] {
     #input {
         background-color: #131313;
         border: none;
-        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        border-bottom: 1px solid rgba(230, 230, 230);
         width: 231px;
         font-family: 'Nunito Sans';
         font-style: normal;
@@ -1776,6 +1804,14 @@ label[for="question-big"] {
         height: 16.23828125px;
         width: 259px;
         display: block;
+    }
+
+    .mobile-checkbox {
+        margin-bottom: 20px;
+    }
+
+    .text-mobile {
+        color: white;
     }
 
     .Completed {
@@ -1872,6 +1908,7 @@ label[for="question-big"] {
         font-size: 13px;
         line-height: 27px;
         color: #959595;
+        text-align: left;
     }
 
 
